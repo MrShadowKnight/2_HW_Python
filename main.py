@@ -86,28 +86,28 @@ elif action1 == more:
     elif number_tree > number_one and number_tree > number_two:
         print("Найбільше: ", number_tree)
     elif number_two > number_tree and number_one > number_tree and number_two == number_one:
-        print("Найбільші: ", number_one, " ", number_two)
+        print("Найбільші: ", number_one)
     elif number_tree > number_two and number_one > number_two and number_tree == number_one:
-        print("Найбільші: ", number_one, " ", number_tree)
+        print("Найбільші: ", number_one)
     elif number_tree > number_one and number_two > number_one and number_tree == number_two:
-        print("Найбільші: ", number_two, " ", number_tree)
+        print("Найбільші: ", number_two)
     elif number_tree == number_two and number_one == number_two and number_one == number_tree:
         print("Числа є рівними!")
     else:
         print("Незнаю як ти це зробив!")
 elif action1 == less:
     if number_one < number_two and number_one < number_tree:
-        print("Найменшеше: ", number_one)
+        print("Найменше: ", number_one)
     elif number_two < number_one and number_two < number_tree:
-        print("Найменшеше: ", number_two)
+        print("Найменше: ", number_two)
     elif number_tree < number_one and number_tree < number_two:
-        print("Найменшеше: ", number_tree)
+        print("Найменше: ", number_tree)
     elif number_two < number_tree and number_one < number_tree and number_two == number_one:
-        print("Найменші: ", number_one, " ", number_two)
+        print("Найменші: ", number_one)
     elif number_tree < number_two and number_one < number_two and number_tree == number_one:
-        print("Найменші: ", number_one, " ", number_tree)
+        print("Найменші: ", number_one)
     elif number_tree < number_one and number_two < number_one and number_tree == number_two:
-        print("Найменші: ", number_two, " ", number_tree)
+        print("Найменші: ", number_two)
     elif number_tree == number_two and number_one == number_two and number_one == number_tree:
         print("Числа є рівними!")
     else:
